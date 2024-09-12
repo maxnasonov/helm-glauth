@@ -27,15 +27,15 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
-config:
+config: {}
 
   # --------------------------------------------------------------------------------
   # Will be used, if our backend is SQLite, to create a storage volume for the db
   # Also, to store cert information if using LDAPS
   # --------------------------------------------------------------------------------
 
-  storage:
-    size: 20G
+#  storage:
+#    size: 20G
 
     # You may wish to override the access type; for instance if you
     # are setting up a single node with hostPath, since hostPath
