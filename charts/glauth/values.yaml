@@ -177,3 +177,5 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+baseDn: "dc=example,dc=com"

@@ -19,6 +19,8 @@ spec:
         - name: init-config
           image: dibi/envsubst
           env:
+            - name: BASE_DN
+              value: {{ .Values.baseDn }}
             - name: DB_HOST
               value: glauth
             - name: DB_USERNAME
